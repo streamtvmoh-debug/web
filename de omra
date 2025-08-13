@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdelmoumen Voyage</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f0f0f0; }
+    header { background: linear-gradient(135deg, #2c3e50, #2980b9); color: white; padding: 20px; text-align: center; }
+    .services { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px; }
+    .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        width: 250px;
+        padding: 20px;
+        text-align: center;
+    }
+    .card h3 { color: #2980b9; }
+    .card button {
+        padding: 10px 20px;
+        border: none;
+        background: #2980b9;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .card button:hover { background: #1f6694; }
+</style>
+</head>
+<body>
+
+<header>
+<img src="C:\Users\M-soft\Pictures\Sans titre.jpg" alt="Logo Abdelmoumen Voyage">
+    <h1>Abdelmoumen Voyage</h1>
+    <p>Choisissez un service pour voir les offres</p>
+</header>
+
+<div class="services">
+    <div class="card">
+        <h3>Omra</h3>
+        <p>Voyage religieux complet</p>
+        <button onclick="location.href='omra4.html'">Voir Offres</button>
+    </div>
+    <div class="card">
+        <h3>Billets d’avion</h3>
+        <p>Meilleures offres de vols</p>
+        <button onclick="location.href='billets.html'">Voir Offres</button>
+    </div>
+    <div class="card">
+        <h3>Visas</h3>
+        <p>Assistance complète</p>
+        <button onclick="location.href='visas.html'">Voir Offres</button>
+    </div>
+    <div class="card">
+        <h3>Hôtels</h3>
+        <p>Réservations dans le monde entier</p>
+        <button onclick="location.href='hotels.html'">Voir Offres</button>
+    </div>
+</div>
+
+</body>
+</html>
